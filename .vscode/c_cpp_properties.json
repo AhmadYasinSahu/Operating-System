@@ -1,0 +1,58 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "C:/Program Files/mingw-w64/x86_64-8.1-posix-seh-rt_v6-rev0/mingw64/include",
+                "C:/Program Files/mingw-w64/x86_64-w64-mingw32/include",
+                "C:/msys64/mingw64/include",
+                "C:/MinGW/include",
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/Program Files/mingw-w64/x86_64-8.1-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "/usr/include",
+                "/usr/include/c++/9",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "WSL",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "/usr/include",
+                "/usr/include/c++/9",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
